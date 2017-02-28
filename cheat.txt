@@ -1,0 +1,2 @@
+clang -c c/hello_world.c -o c/libhelloworld.a
+RUSTFLAGS="-l helloworld -L ./c" cargo build
