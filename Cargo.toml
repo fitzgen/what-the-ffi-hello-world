@@ -1,9 +1,10 @@
 [package]
+authors = ["Nick Fitzgerald <fitzgen@gmail.com>"]
 name = "hello_world"
 version = "0.1.0"
-authors = ["Nick Fitzgerald <fitzgen@gmail.com>"]
-
-[dependencies]
 
 [[bin]]
 name = "hello_world"
+
+[dependencies]
+libc = "0.2.20"
